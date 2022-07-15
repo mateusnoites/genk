@@ -79,7 +79,7 @@ while loop:
     text = str(input("Insira seu texto em Genk: "))
 
     if text.startswith(prefix):
-        text = text.removeprefix(prefix)
+        text = text.replace(prefix, "")
 
         divided = [text[i:i+JUMP] for i in range(0, len(text), JUMP)]
 
