@@ -1,6 +1,3 @@
-from asyncio.windows_events import NULL
-
-
 letters = [
     "a",
     "b",
