@@ -30,7 +30,36 @@ letters = [
     ",",
     " ",
     "!",
-    "?"
+    "?",
+    ":",
+    "/",
+
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z"
 ]
 
 prefix = "genk-"
@@ -67,7 +96,36 @@ cypher = [
     "55",
     "22",
     "00",
-    "11"
+    "11",
+    "43",
+    "07",
+
+    ">j",
+    "<l",
+    ">i",
+    "<y",
+    ">k",
+    "<v",
+    ">l",
+    "<n",
+    ">a",
+    "<w",
+    ">u",
+    "<r",
+    ">a",
+    "<y",
+    ">y",
+    "<c",
+    ">i",
+    "<m",
+    ">n",
+    "<e",
+    ">m",
+    "<i",
+    ">s",
+    "<g",
+    ">h",
+    "<p"
 ]
 
 loop = True
@@ -85,7 +143,7 @@ while loop:
 
     keys = list(keynum)
 
-    for i in keys: # dessa parte até a linha 102, nem eu entendo o que eu fiz
+    for i in keys: # dessa parte até a linha 157, nem eu entendo o que eu fiz
         i = int(i)
 
         if i != 0:
